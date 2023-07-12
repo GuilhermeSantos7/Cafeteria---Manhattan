@@ -1,0 +1,379 @@
+/* Estilos Globais */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-parallax-1,
+.container-parallax-2,
+.container-parallax-3,
+.container-parallax-4,
+.container-parallax-5
+{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header <--> Cabeçalho da Página */
+.cabeçalho{
+    background-color:#604829;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index:1;
+}
+
+.cabeçalho img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 15vw;
+    top: 2px;
+}
+
+.cabeçalho nav{
+    position: absolute;
+    right: 5vw;
+    top: 40px;
+}
+.cabeçalho a{
+    padding-right: 15px;
+    text-decoration: none;
+    font-family: 'Oswald';
+    color: #c4a47c;
+    font-weight: bold;
+    text-shadow: 5px 4px 1px black;
+    font-size: 18px;
+}
+
+/* Efeitos Parallax */
+
+/* 1ª Parallax  */
+.Parallax-1{
+    background-image: url('img/parallax-imagem1.png');
+    height: 100vh;
+    position: relative;
+}
+.Parallax-1 h1{
+    color: white;
+    position: absolute;
+    width: 300px;
+    z-index:0;
+    top: 45%;
+    right: 0;
+    font-size: 100px;
+    width: 100%;
+    font-family: 'Fraunces';
+    text-align: center;
+}
+
+/* 2ª Parallax  */
+.Parallax-2{
+    background-image: url('img/parallax-imagem2.jpg');
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.Parallax-2 h3{
+    position: absolute;
+    top: 50%;
+    left: 35vw;
+}
+
+/* 3ª Parallax  */
+.Parallax-3{
+    background-image: url('img/parallax-imagem3.jpg');
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+.Parallax-3 h3{
+    position: absolute;
+    top: 50%;
+    left: 35vw;
+}
+
+/* 4ª Parallax  */
+.Parallax-4{
+    background-image: url(img/parallax-imagem4.png);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.Parallax-4 h3{
+    position: absolute;
+    top: 10%;
+    left: 35vw;
+}
+
+.Parallax-4 iframe{
+    width: 1024px;
+    height: 450px;
+    border-radius: 10px;
+    margin-top: 220px;
+    margin-left: 23vw;
+    margin-right: 25vw;
+    text-align: center;
+}
+
+.Parallax-4 .texto-P{
+    position: absolute;
+    background-color: #604829;
+    width: 500px;
+    padding: 10px;
+    bottom: 8%;
+    right: 35%;
+    left: 35%;
+    color: white;
+    font-family: 'Oswald';
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    text-shadow: 5px 5px 2px black;
+    margin: 0px auto;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+/* 5ª Parallax  */
+
+.Parallax-5{
+    background-image: url(img/cafeteria.jpg);
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    margin: 0 auto;
+    color: white;
+}
+.Parallax-5 h4{
+    font-family: 'Oswald';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 5px;
+    
+}
+
+/* Lista */
+.Parallax-5 .lista{
+    width: 50%;
+    height: 60vh;
+    margin: 50px auto;
+    font-family: 'Oswald';
+}
+.lista li{
+    position: relative;
+}
+
+/* Itens da Lista */
+
+/* 1º Item */
+.lista .item-1 h3{
+    position: absolute;
+    top: 14vh;
+    left: 4vw;
+}
+.lista .item-1 span{
+    position: absolute;
+    top: 14vh;
+    right: 3.5vw;
+    font-size: 18px;
+    color: #c4a47c;
+}
+.lista .item-1 div{
+    background-color:#ACACAC;
+    width: 70%;
+    height: 0.2vh;
+    position: absolute;
+    top: 15vh;
+    left: 7.7vw;
+}
+
+/* 2º Item */
+.lista .item-2 h3{
+    position: absolute;
+    top: 19vh;
+    left: 4vw;
+}
+.lista .item-2 p{
+    position: absolute;
+    top: 19vh;
+    right: 2vw;
+    font-size: 18px;
+}
+.lista .item-2 div{
+    background-color:#ACACAC;
+    width: 70%;
+    height: 0.2vh;
+    position: absolute;
+    top: 20.6vh;
+    left: 7.7vw;
+}
+/* 3º Item */
+.lista .item-3 h3{
+    position: absolute;
+    top: 24.6vh;
+    left: 4vw;
+}
+.lista .item-3 p{
+    position: absolute;
+    top: 24.6vh;
+    right: 2vw;
+    font-size: 18px;
+}
+.lista .item-3 div{
+    background-color:#ACACAC;
+    width: 70%;
+    height: 0.3vh;
+    position: absolute;
+    top: 26vh;
+    left: 7.7vw;
+}
+/* 4º Item */
+.lista .item-4 h3{
+    position: absolute;
+    top: 30vh;
+    left: 4vw;
+}
+.lista .item-4 p{
+    position: absolute;
+    top: 30vh;
+    right: 2vw;
+    font-size: 18px;
+}
+.lista .item-4 div{
+    background-color:#ACACAC;
+    width: 70%;
+    height: 0.2vh;
+    position: absolute;
+    top: 31.5vh;
+    left: 7.7vw;
+}
+/* 5º Item */
+.lista .item-5 h3{
+    position: absolute;
+    top: 35vh;
+    left: 4vw;
+}
+.lista .item-5 p{
+    position: absolute;
+    top: 35vh;
+    right: 2vw;
+    font-size: 18px;
+}
+.lista .item-5 div{
+    background-color:#ACACAC;
+    width: 70%;
+    height: 0.2vh;
+    position: absolute;
+    top: 36.5vh;
+    left: 7.7vw;
+}
+/* 6º Item */
+.lista .item-6 h3{
+    position: absolute;
+    top: 40vh;
+    left: 4vw;
+}
+.lista .item-6 p{
+    position: absolute;
+    top: 40vh;
+    right: 2vw;
+    font-size: 18px;
+}
+.lista .item-6 div{
+    background-color:#ACACAC;
+    width: 70%;
+    height: 0.2vh;
+    position: absolute;
+    top: 41.5vh;
+    left: 7.7vw;
+}
+/* 7º Item */
+.lista .item-7 h3{
+    position: absolute;
+    top: 45vh;
+    left: 4vw;
+}
+.lista .item-7 p{
+    position: absolute;
+    top: 45vh;
+    right: 2vw;
+    font-size: 18px;
+}
+.lista .item-7 div{
+    background-color:#ACACAC;
+    width: 70%;
+    height: 0.2vh;
+    position: absolute;
+    top: 46.5vh;
+    left: 7.7vw;
+}
+
+/* Container Texto */
+.Container-texto{
+    width: 100%;
+    text-align: center;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.Container-texto h2{
+    width: 100vw;
+    color: #c4a47c;
+    font-family: 'Oswald';
+    padding-bottom:30px;
+    
+}
+.Container-texto P{
+    width: 55vw;
+    margin: 0PX auto;
+    line-height: 30px;
+    font-family: 'Lato';
+    color: #666;
+}
+
+/* Subtitulo isolado */
+
+.texto{
+    border-radius: 5px;
+    font-family: 'Oswald';
+    background-color: #604829;
+    width: 30vw;
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Rodapé */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 150px;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    line-height: 60px;
+    font-family: 'Oswald';
+}
+footer p span{
+    color: #c4a47c;
+}
+footer img{
+    position: absolute;
+    right: 20px;
+    bottom: 120px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #c4a47c;
+    
+}
